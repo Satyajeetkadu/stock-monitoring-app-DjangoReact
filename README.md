@@ -15,30 +15,30 @@ This project is a full-stack web application for monitoring stock prices. It all
 ### Backend (Django)
 
 1. **Clone the repository:**
-   \`\`\`bash
+   \`\`\`
    git clone https://github.com/Satyajeetkadu/stock-monitoring-app-DjangoReact.git
    cd stock-monitoring-platform
    \`\`\`
 
 2. **Create a virtual environment:**
-   \`\`\`bash
+   \`\`\`
    python3 -m venv venv
    source venv/bin/activate  # On Windows use \`venv\Scripts\activate\`
    \`\`\`
 
 3. **Install dependencies:**
-   \`\`\`bash
+   \`\`\`
    pip install -r requirements.txt
    \`\`\`
 
 4. **Run database migrations:**
-   \`\`\`bash
+   \`\`\`
    cd stock_monitor
    python3 manage.py migrate
    \`\`\`
 
 5. **Run the Django development server:**
-   \`\`\`bash
+   \`\`\`
    python3 manage.py runserver
    \`\`\`
 
@@ -46,17 +46,17 @@ Keep the server running in this terminal.
 ### Frontend (React)
 
 1. **Open a new terminal and navigate to the \`frontend\` directory:**
-   \`\`\`bash
+   \`\`\`
    cd frontend
    \`\`\`
 
 2. **Install dependencies:**
-   \`\`\`bash
+   \`\`\`
    npm install
    \`\`\`
 
 3. **Start the React development server:**
-   \`\`\`bash
+   \`\`\`
    npm start
    \`\`\`
 
