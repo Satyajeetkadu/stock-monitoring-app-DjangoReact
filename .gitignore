@@ -1,0 +1,20 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+
+# Python
+venv/
+*.pyc
+.Python
+env/
+venv/
+ENV/
+env.bak/
+*.python-version
+
+# React
+node_modules/
+build/
